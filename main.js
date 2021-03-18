@@ -15,10 +15,28 @@ function toOrange() {
 }
 span.addEventListener('click', toOrange);
 
+
 function redBorder() {
     dinoImg.style.border = 'red solid 2px';
 }
-dinoImg.addEventListener('click' redBorder);
+dinoImg.addEventListener('click', redBorder);
+
+
+function transparency() {
+    featheredDino.style.opacity = '0.5';
+}
+featheredDino.addEventListener('click', transparency);
+
+
+function rowBackground() {
+    rowBackground.style.backgroundColor = 'purple';
+}
+button.addEventListener('click', rowBackground);
+
+function biggieBiggieBiggie() {
+    biggify.style.width = '200px';
+}
+biggify.addEventListener('mouseover', biggieBiggieBiggie);
 
 
 
